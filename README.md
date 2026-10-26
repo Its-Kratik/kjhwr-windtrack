@@ -9,10 +9,10 @@ A production-ready web application for UK energy utility procurement teams to mo
 ## 🚀 Live Demo
 
 | Service | URL |
-|---------|-----|
-| **Frontend** (Vercel) | *(add your Vercel URL after deploy)* |
-| **Backend API** (Heroku) | *(add your Heroku URL after deploy)* |
-| **API Docs** | `{heroku-url}/docs` |
+|---|---|
+| **Frontend App** (Vercel) | *(Deploying via Vercel)* |
+| **Backend API** (Render) | [https://windtrack-backend.onrender.com](https://windtrack-backend.onrender.com) |
+| **Interactive API Docs** | [https://windtrack-backend.onrender.com/docs](https://windtrack-backend.onrender.com/docs) |
 
 ---
 
