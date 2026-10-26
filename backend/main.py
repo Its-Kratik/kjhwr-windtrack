@@ -302,6 +302,23 @@ def round_to_nearest_hour(isostr: str) -> str:
 # API Routes
 # ---------------------------------------------------------------------------
 
+@app.get("/")
+async def root():
+    return {
+        "service": "WindTrack — UK Wind Power Intelligence API",
+        "status": "healthy",
+        "docs": "/docs",
+        "health": "/health",
+        "endpoints": [
+            "/api/latest-forecast",
+            "/api/forecast-comparison?delivery_date=2026-01-15",
+            "/api/accuracy?start_date=2026-01-01&end_date=2026-01-31",
+            "/api/actuals",
+            "/api/forecasts"
+        ]
+    }
+
+
 @app.get("/health")
 async def health():
     return {"status": "ok", "timestamp": datetime.now(timezone.utc).isoformat()}
