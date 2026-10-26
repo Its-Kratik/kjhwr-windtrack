@@ -10,7 +10,7 @@ A production-ready web application for UK energy utility procurement teams to mo
 
 | Service | URL |
 |---|---|
-| **Frontend App** (Vercel) | *(Deploying via Vercel)* |
+| **Frontend App** (Vercel) | [https://kjhwr-windtrack-r4z7.vercel.app/](https://kjhwr-windtrack-r4z7.vercel.app/) |
 | **Backend API** (Render) | [https://windtrack-backend.onrender.com](https://windtrack-backend.onrender.com) |
 | **Interactive API Docs** | [https://windtrack-backend.onrender.com/docs](https://windtrack-backend.onrender.com/docs) |
 
